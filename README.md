@@ -1,89 +1,49 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+Fifth week's homework for UNH Full-Stack Web Development Boot Camp
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Description 
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+The goal of this project was to create a simple calendar application that allows the user to save a task for each hour of the day. Our main tasks were to ensure that:
 
-## User Story
+* When the application is opened, the current day and time are displayed at the top of the calendar.
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+* The calendar is built of timeblocks for the hours of a standard work day.
 
-## Acceptance Criteria
+* The timeblocks are color-coded so that the user can tell at a glance which hours have passed, which are ahead, and what hour it is now.
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+* Clicking into the text area of one of the timeblocks allows the user to enter an event. 
 
-The following animation demonstrates the application functionality:
+* Clicking the save button next to the text area - after entering an event - will cause the text to be saved. 
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+* When the page is reloaded, saved events will persist.
+
+## Built with
+
+* HTML
+* CSS
+* Javascript
+* Moment.js
+* Jquery
+* Bootstrap
+
+## Links
+
+* [GitHub Repository](https://github.com/shabobble/day-planner)
+* [Deployed Application](https://shabobble.github.io/day-planner/)
+
+## Screenshots
+
+![Screenshot](/assets/screencap.jpg)
 
 
-## Grading Requirements
+# Installation
 
-This homework is graded based on the following criteria: 
+No installations required for this project.
 
-### Technical Acceptance Criteria: 40%
+## Credits
 
-* Satisfies all of the above acceptance criteria plus the following:
+My full-stack web development course is being offered as a collaboration between Trilogy Education Services and UNH Professional Development and Training.
 
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+* Instructor - Benjamin Hutchins [GitHub](https://github.com/benhutchins)
+* TA - Casey Ferguson [LinkedIn](https://www.linkedin.com/in/casey-a-ferguson/)
