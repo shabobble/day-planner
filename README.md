@@ -34,7 +34,7 @@ The goal of this project was to create a simple calendar application that allows
 
 ## Screenshots
 
-![Screenshot](/assets/screencap.jpg)
+![Screenshot](./assets/screencap.jpg)
 
 
 # Installation
